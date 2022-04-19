@@ -1,0 +1,87 @@
+.sidebarContainer {
+    display: flex;
+    font-family: "IBM Plex Sana Thai Looped", sans-serif;
+    color: white;
+    text-shadow: 1px 0px 2px #8dc4f0;
+    
+  }
+   /* Rıdvan Üçdağ
+ linkedin.com/in/ridvanucdag/
+ github.com/ridvanucdag */
+  .sidebar_container {
+    height: 100%;
+    position: sticky;
+    top: 0;
+    left:0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .menu{
+    color: white;
+   font-size: 19px;
+  }
+   /* Rıdvan Üçdağ
+ linkedin.com/in/ridvanucdag/
+ github.com/ridvanucdag */
+
+  .sidebar{
+    display: flex;
+    width: 14rem;
+    height: 100%;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    border-radius:10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: linear-gradient(179deg, #000000, #000000);
+  }
+   /* Rıdvan Üçdağ
+ linkedin.com/in/ridvanucdag/
+ github.com/ridvanucdag */
+  .group{
+    display: flex;
+    flex-direction: column;
+    width: 100%
+  }
+  .body_container {
+    flex: 1;
+    margin-top: -35px;
+  }
+  h3{
+    font-size: 1rem;
+    margin: 10px 0px 10px 0px
+  }
+   /* Rıdvan Üçdağ
+ linkedin.com/in/ridvanucdag/
+ github.com/ridvanucdag */
+  .item{
+    display: flex;
+    padding: 6px 10px 6px 4px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+  .icon{
+    margin-right: 0.5rem;
+    margin-top: 6px
+}
+ /* Rıdvan Üçdağ
+ linkedin.com/in/ridvanucdag/
+ github.com/ridvanucdag */
+  .item:hover{
+    background-color: rgba(236, 227, 227, 0.3);
+    box-shadow: 0 8px 50px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    cursor: pointer;
+    transition-duration:0.1;
+    transition-property:none;
+}
+ /* Rıdvan Üçdağ
+ linkedin.com/in/ridvanucdag/
+ github.com/ridvanucdag */
