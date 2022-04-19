@@ -87,6 +87,9 @@ a{
   color: white;
   text-decoration: none;
 }
+a:hover{
+  color: white;
+}
  /* Rıdvan Üçdağ
  linkedin.com/in/ridvanucdag/
  github.com/ridvanucdag */
