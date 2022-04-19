@@ -1,4 +1,5 @@
 .sidebarContainer {
+    position:fixed;
     display: flex;
     font-family: "IBM Plex Sana Thai Looped", sans-serif;
     color: white;
@@ -81,6 +82,9 @@
     cursor: pointer;
     transition-duration:0.1;
     transition-property:none;
+}
+Link:visited{
+  color: white;
 }
  /* Rıdvan Üçdağ
  linkedin.com/in/ridvanucdag/

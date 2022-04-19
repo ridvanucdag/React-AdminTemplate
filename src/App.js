@@ -1,9 +1,10 @@
-import AdminPage from "./component/AdminPage";
+
+import WithAdminLayout from "./layout/WithAdminLayout";
 
 function App() {
   return (
     <div className="App">
-      <AdminPage/>
+      <WithAdminLayout/>
     </div>
   );
 }

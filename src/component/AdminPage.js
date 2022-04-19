@@ -1,7 +1,6 @@
 import React from "react";
-import IChartsBar from "./Cart"
 import "./AdminPage.css";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 function AdminPage() {
   return (
@@ -17,31 +16,38 @@ function AdminPage() {
                   <span style={{ fontSize: 19}}>Rıdvan Üçdağ - Admin</span>
                 </h3>
                 <div className="menu">
-                  
+                <Link to="/dashboard">
                 <div className='item'>
                      <div className='icon'>
                      <i className="fa fa-dashboard"></i>
                      </div>
                      <span>Dashboard</span>
                       </div>
+                      </Link>
+                      <Link to="/istatistikler">
                     <div className='item'>
                      <div className='icon'>
                      <i className="fa fa-bar-chart"></i>
                      </div>
                      <span>İstatistikler</span>
                       </div>
+                      </Link>
+                      <Link to="/kullanicilar">
                     <div className='item'>
                      <div className='icon'>
                      <i className="fa fa-users"></i>
                      </div>
                      <span>Kullanıcılar</span>
                       </div>
+                      </Link>
+                      <Link to="/mailler">
                      <div className='item'>
                      <div className='icon'>
                      <i className="fa fa-envelope-open"></i>
                      </div>
                      <span>Mailler</span>
                       </div>
+                      </Link>
                 </div>
               </div>
                   {/* Rıdvan Üçdağ
@@ -114,10 +120,10 @@ function AdminPage() {
               </div>
             </div>
           </div>
-          <div className="body_container">
+          {/* <div className="body_container"> */}
             {/* {prop.container ? prop.container : <IChartsBar/> } */}
-            <IChartsBar/> 
-          </div>
+            {/* <IChartsBar/>  */}
+          {/* </div> */}
           </div>
   );
 }
